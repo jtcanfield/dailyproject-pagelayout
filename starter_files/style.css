@@ -46,7 +46,7 @@ a:hover{
     color: blue;
 }
 
-header{ 
+header{
     padding-bottom: 15px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ddddff;
@@ -75,4 +75,10 @@ header{
 
 #main_nav a:hover{
     background: #ddddff;
+}
+@media (min-width: 600px) {
+
+}
+@media (min-width: 1100px) {
+
 }
