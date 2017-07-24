@@ -50,6 +50,7 @@ header{
     padding-bottom: 15px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ddddff;
+    text-align: center;
 }
 
 #site_container{
@@ -76,8 +77,26 @@ header{
 #main_nav a:hover{
     background: #ddddff;
 }
-@media (min-width: 600px) {
 
+#main_content {
+  background-color: #ddffff;
+  padding: 20px;
+}
+#sidebar_content{
+  background-color: #ffffdd;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  #main_nav{
+    display: flex;
+    justify-content: space-around;
+  }
+  #main_nav a {
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 @media (min-width: 1100px) {
 
